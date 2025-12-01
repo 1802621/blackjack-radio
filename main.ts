@@ -14,7 +14,7 @@ let DECK = ["a", "b", "c"]
 Score = 0
 Bust = 0
 basic.showString("Welcome")
-I2C_LCD2004.LcdInit(0)
+I2C_LCD2004.LcdInit(39)
 I2C_LCD2004.on()
 I2C_LCD2004.ShowString("Hello", 0, 0)
 basic.forever(function () {
