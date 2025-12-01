@@ -9,6 +9,7 @@ function Draw_Card () {
 }
 let Bust = 0
 let Score = 0
+let DECK = ["a", "b", "c"]
 let DRAWN_CARDS: number[] = []
 Score = 0
 Bust = 0
